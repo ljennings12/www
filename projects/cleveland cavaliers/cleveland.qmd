@@ -1,0 +1,18 @@
+---
+title: "Cleveland Cavaliers Advanced Analytics Hackathon 2023"
+description: "Winners of the Cleveland Cavaliers Advanced Analytics Hackathon 2023"
+date: November 20, 2023
+about: 
+  template: solana
+  image: cover.png
+  links:
+      - icon: github
+        text: GitHub
+        href: https://github.com/ljennings12/Cleveland-Cavaliers-Advanced-Analytics-Track
+        target: _blank
+      - icon: laptop
+        text: Slides
+        href: https://docs.google.com/presentation/d/1kVw0oUMaxZDIG3OONkkFVeFUJf6YjXguBj4uDh2tlKk/edit?usp=sharing
+        target: _blank
+---
+The challenge was to create tiers for the Cavaliers home games for the 2023/24 season and showcase the insights in ten days. We added to the provided data and weighted the variables to bring meaning to their significance. Then, we utilized a k-means clustering algorithm to group the games and arrange them into four tiers. Using the cluster centers, we interpreted the results and provided insight into each level. Also, we constructed a presentation of our findings to showcase the tiers and discuss our code in a manner that would be easily understandable for all audiences.

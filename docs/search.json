@@ -1,0 +1,37 @@
+[
+  {
+    "objectID": "projects/cincinnati reds/cincinnati.html",
+    "href": "projects/cincinnati reds/cincinnati.html",
+    "title": "2024 Cincinnati Reds Baseball Hackathon",
+    "section": "",
+    "text": "The task was to analyze pitchers that may benefit from a role change using Baseball Savant pitch-by-pitch and Fangraphs season data. We used the Baseball Savant data to calculate the weighted on-base average (wOBA) for every pitcher because it isolates pitcher performance more effectively than batting average allowed or WHIP. Then, we utilized stepwise regression to determine the most significant variables to predict FIP. After finding the most important predictors, we created a decision tree model with k-fold cross-validation and looked at pitchers with incorrectly predicted roles in 2023. The model and subjective reasoning determined that SP Blake Snell, SP Steven Matz, and RP Víctor Gonzalez could transition well to the other classified role."
+  },
+  {
+    "objectID": "portfolio.html",
+    "href": "portfolio.html",
+    "title": "Portfolio",
+    "section": "",
+    "text": "Here are my projects!\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n2024 Cincinnati Reds Baseball Hackathon\n\n\n\n\n\nFinalists of the 2024 Cincinnati Reds Baseball Hackathon\n\n\n\n\n\nFeb 5, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nCapstone\n\n\n\n\n\nCMSACamp 2024 Stuff+ Trends and Pitch Effectiveness Project\n\n\n\n\n\nJul 26, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nCleveland Cavaliers Advanced Analytics Hackathon 2023\n\n\n\n\n\nWinners of the Cleveland Cavaliers Advanced Analytics Hackathon 2023\n\n\n\n\n\nNov 20, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nWNBA EDA Project\n\n\n\n\n\nCMSACamp 2024 WNBA EDA Project\n\n\n\n\n\nJun 18, 2024\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Liam Jennings",
+    "section": "",
+    "text": "I am a Robert Morris University student majoring in Statistics and Data Science with a minor in Sport Management and also pursuing a Master’s in Data Science. I decided to combine my favorite subject (statistics) and hobby (sports) into a passion.\nI have always been interested in statistics, whether I was scanning the back of football cards, combing through Statcast leaders, or using advanced analytics to win in fantasy football.\nI’m eager to continue learning and gaining knowledge and experience in the sports industry."
+  },
+  {
+    "objectID": "projects/capstone/capstone.html",
+    "href": "projects/capstone/capstone.html",
+    "title": "Capstone",
+    "section": "",
+    "text": "Insert description down here"
+  },
+  {
+    "objectID": "projects/cleveland cavaliers/cleveland.html",
+    "href": "projects/cleveland cavaliers/cleveland.html",
+    "title": "Cleveland Cavaliers Advanced Analytics Hackathon 2023",
+    "section": "",
+    "text": "The challenge was to create tiers for the Cavaliers home games for the 2023/24 season and showcase the insights in ten days. We added to the provided data and weighted the variables to bring meaning to their significance. Then, we utilized a k-means clustering algorithm to group the games and arrange them into four tiers. Using the cluster centers, we interpreted the results and provided insight into each level. Also, we constructed a presentation of our findings to showcase the tiers and discuss our code in a manner that would be easily understandable for all audiences."
+  }
+]

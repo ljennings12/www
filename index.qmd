@@ -1,0 +1,24 @@
+---
+title: "Liam Jennings"
+about: 
+  template: jolla
+  image: assets/Liam_Jennings_Headshot.jpg
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:liam.j.jennings12@gmail.com
+    - icon: github
+      text: GitHub
+      href: https://github.com/ljennings12
+      target: _blank
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/liamjennings/
+      target: _blank
+---
+
+I am a Robert Morris University student majoring in Statistics and Data Science with a minor in Sport Management and also pursuing a Master's in Data Science. I decided to combine my favorite subject (statistics) and hobby (sports) into a passion. 
+
+I have always been interested in statistics, whether I was scanning the back of football cards, combing through Statcast leaders, or using advanced analytics to win in fantasy football. 
+
+I’m eager to continue learning and gaining knowledge and experience in the sports industry.

@@ -1,0 +1,18 @@
+---
+title: "2024 Cincinnati Reds Baseball Hackathon"
+description: "Finalists of the 2024 Cincinnati Reds Baseball Hackathon"
+date: February 5, 2023
+about: 
+  template: solana
+  image: cover.png
+  links:
+      - icon: github
+        text: GitHub
+        href: https://github.com/ljennings12/Cincinnati-Reds-Hackathon-Submission
+        target: _blank
+      - icon: laptop
+        text: Slides
+        href: https://docs.google.com/presentation/d/1wZc4Neaew8utNnDk8T0_8zGyeGSFGNpaNg8jggmbVlQ/edit?usp=sharing
+        target: _blank
+---
+The task was to analyze pitchers that may benefit from a role change using Baseball Savant pitch-by-pitch and Fangraphs season data. We used the Baseball Savant data to calculate the weighted on-base average (wOBA) for every pitcher because it isolates pitcher performance more effectively than batting average allowed or WHIP. Then, we utilized stepwise regression to determine the most significant variables to predict FIP. After finding the most important predictors, we created a decision tree model with k-fold cross-validation and looked at pitchers with incorrectly predicted roles in 2023. The model and subjective reasoning determined that SP Blake Snell, SP Steven Matz, and RP Víctor Gonzalez could transition well to the other classified role.

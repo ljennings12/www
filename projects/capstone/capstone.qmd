@@ -1,0 +1,24 @@
+---
+title: "Capstone"
+description: "CMSACamp 2024 Stuff+ Trends and Pitch Effectiveness Project"
+date: July 26, 2024
+about: 
+  template: solana
+  links:
+      - icon: github
+        text: GitHub
+        href: https://github.com/belle-schmidt/Pittsburgh-Pirates/tree/main
+        target: _blank
+      - icon: file-earmark-ppt
+        text: Slides
+        href: bb #link to presentation
+      - icon: file-earmark-post
+        text: Poster
+        href: bb # link to poster
+      - icon: pencil
+        text: Report
+        href: bb # link to report
+---
+
+*Insert description down here*
+

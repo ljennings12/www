@@ -1,0 +1,9 @@
+---
+title: "Portfolio"
+listing:
+  contents: projects
+  type: default
+---
+
+Here are my projects!
+

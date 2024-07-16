@@ -1,0 +1,18 @@
+---
+title: "WNBA EDA Project"
+description: "CMSACamp 2024 WNBA EDA Project"
+date: June 18, 2024
+about: 
+  template: solana
+  image: cover.png
+  links:
+      - icon: github
+        text: GitHub
+        href: https://github.com/belle-schmidt/Pittsburgh-Pirates/tree/main
+        target: _blank
+      - icon: laptop
+        text: Slides
+        href: https://docs.google.com/presentation/d/1_1x_YtSZJGayjbqQrRSovPsJ_z3kGCAPemvePHi2UAQ/edit#slide=id.g2e5d72eebd7_0_930
+        target: _blank
+---
+

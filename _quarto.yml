@@ -1,0 +1,32 @@
+project:
+  type: website
+  resources: assets
+  output-dir: docs
+
+website:
+  title: "Liam Jennings"
+  navbar:
+    background: "#A6192E"
+    left:
+      - href: index.qmd
+        text: Home
+      - portfolio.qmd
+    right:
+      - icon: linkedin
+        href: https://www.linkedin.com/in/liamjennings/
+      - icon: github
+        href: https://github.com/ljennings12
+      - icon: file-pdf-fill
+        href: assets/Liam_Jennings_Resume.pdf
+
+format:
+  html:
+    theme: 
+      dark: darkly
+      light: flatly
+        - custom.scss
+    css: styles.css
+    toc: true
+
+
+
