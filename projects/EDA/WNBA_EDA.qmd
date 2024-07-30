@@ -1,7 +1,8 @@
 ---
 title: "WNBA EDA Project"
 description: "CMSACamp 2024 WNBA EDA Project"
-date: June 18, 2024
+date: June 2024
+date-format: "MMM YYYY"
 about: 
   template: solana
   image: cover.png
@@ -15,4 +16,4 @@ about:
         href: https://docs.google.com/presentation/d/1_1x_YtSZJGayjbqQrRSovPsJ_z3kGCAPemvePHi2UAQ/edit#slide=id.g2e5d72eebd7_0_930
         target: _blank
 ---
-
+The data was from the wehoop package, where each row corresponds to a shot attempt in the WNBA 2023 season. The hypotheses we examined are: 1) shooting efficiency and frequency between the best and worst teams, 2) who the best and worst performers are during the playoffs and 3) how do home teams’ performance differ from away teams’ performance during “clutch” time? Using fundamental EDA and data visualization techniques, we evaluated our hypotheses and presented our conclusions.

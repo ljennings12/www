@@ -1,7 +1,8 @@
 ---
 title: "2024 Cincinnati Reds Baseball Hackathon"
 description: "Finalists of the 2024 Cincinnati Reds Baseball Hackathon"
-date: February 5, 2023
+date: February 2024
+date-format: "MMM YYYY"
 about: 
   template: solana
   image: cover.png

@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "projects/EDA/WNBA_EDA.html",
+    "href": "projects/EDA/WNBA_EDA.html",
+    "title": "WNBA EDA Project",
+    "section": "",
+    "text": "The data was from the wehoop package, where each row corresponds to a shot attempt in the WNBA 2023 season. The hypotheses we examined are: 1) shooting efficiency and frequency between the best and worst teams, 2) who the best and worst performers are during the playoffs and 3) how do home teams’ performance differ from away teams’ performance during “clutch” time? Using fundamental EDA and data visualization techniques, we evaluated our hypotheses and presented our conclusions."
+  },
+  {
     "objectID": "projects/cincinnati reds/cincinnati.html",
     "href": "projects/cincinnati reds/cincinnati.html",
     "title": "2024 Cincinnati Reds Baseball Hackathon",
@@ -11,7 +18,7 @@
     "href": "portfolio.html",
     "title": "Portfolio",
     "section": "",
-    "text": "Here are my projects!\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n2024 Cincinnati Reds Baseball Hackathon\n\n\n\n\n\nFinalists of the 2024 Cincinnati Reds Baseball Hackathon\n\n\n\n\n\nFeb 5, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nCapstone\n\n\n\n\n\nCMSACamp 2024 Stuff+ Trends and Pitch Effectiveness Project\n\n\n\n\n\nJul 26, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nCleveland Cavaliers Advanced Analytics Hackathon 2023\n\n\n\n\n\nWinners of the Cleveland Cavaliers Advanced Analytics Hackathon 2023\n\n\n\n\n\nNov 20, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nWNBA EDA Project\n\n\n\n\n\nCMSACamp 2024 WNBA EDA Project\n\n\n\n\n\nJun 18, 2024\n\n\n\n\n\n\nNo matching items"
+    "text": "Here are my projects!\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe Wrong Stuff\n\n\n\n\n\nCMSACamp 2024 Stuff+ Trends and Pitch Effectiveness Capstone Project\n\n\n\n\n\nJul 2024\n\n\n\n\n\n\n\n\n\n\n\n\nWNBA EDA Project\n\n\n\n\n\nCMSACamp 2024 WNBA EDA Project\n\n\n\n\n\nJun 2024\n\n\n\n\n\n\n\n\n\n\n\n\n2024 Cincinnati Reds Baseball Hackathon\n\n\n\n\n\nFinalists of the 2024 Cincinnati Reds Baseball Hackathon\n\n\n\n\n\nFeb 2024\n\n\n\n\n\n\n\n\n\n\n\n\n2023 Cleveland Cavaliers Advanced Analytics Hackathon\n\n\n\n\n\nWinners of the 2023 Cleveland Cavaliers Advanced Analytics Hackathon\n\n\n\n\n\nNov 2023\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",
@@ -23,14 +30,14 @@
   {
     "objectID": "projects/capstone/capstone.html",
     "href": "projects/capstone/capstone.html",
-    "title": "Capstone",
+    "title": "The Wrong Stuff",
     "section": "",
-    "text": "Insert description down here"
+    "text": "As the MLB continues to evolve, there are new advantages every day. Stuff+ is a pitching metric that describes the “filth” of a pitch based on the ball-flight characteristics (e.g., velocity, movement, spin, and extension). A Stuff+ value of 100 means a pitch is considered league average; anything above or below 100 is considered above or below average respectively.\nWith the emergence of Stuff+ as a common metric used in pitcher evaluation, we wanted to evaluate how accurately the model predicted a pitcher’s success (e.g., whiff rate and xwOBA) and how appropriately it weighed the factors that go into it.\nOur goal is to provide insights to improve the Stuff+ model so it becomes a more reliable metric for player evaluation.\nOur initial analysis is concentrated on the four-seam fastball, with plans to extend this research to other pitch types in future work."
   },
   {
     "objectID": "projects/cleveland cavaliers/cleveland.html",
     "href": "projects/cleveland cavaliers/cleveland.html",
-    "title": "Cleveland Cavaliers Advanced Analytics Hackathon 2023",
+    "title": "2023 Cleveland Cavaliers Advanced Analytics Hackathon",
     "section": "",
     "text": "The challenge was to create tiers for the Cavaliers home games for the 2023/24 season and showcase the insights in ten days. We added to the provided data and weighted the variables to bring meaning to their significance. Then, we utilized a k-means clustering algorithm to group the games and arrange them into four tiers. Using the cluster centers, we interpreted the results and provided insight into each level. Also, we constructed a presentation of our findings to showcase the tiers and discuss our code in a manner that would be easily understandable for all audiences."
   }

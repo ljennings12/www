@@ -2,10 +2,10 @@
   {
     "listing": "/portfolio.html",
     "items": [
-      "/projects/cincinnati reds/cincinnati.html",
       "/projects/capstone/capstone.html",
-      "/projects/cleveland cavaliers/cleveland.html",
-      "/projects/EDA/WNBA_EDA.html"
+      "/projects/EDA/WNBA_EDA.html",
+      "/projects/cincinnati reds/cincinnati.html",
+      "/projects/cleveland cavaliers/cleveland.html"
     ]
   }
 ]

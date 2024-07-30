@@ -1,7 +1,8 @@
 ---
-title: "Cleveland Cavaliers Advanced Analytics Hackathon 2023"
-description: "Winners of the Cleveland Cavaliers Advanced Analytics Hackathon 2023"
-date: November 20, 2023
+title: "2023 Cleveland Cavaliers Advanced Analytics Hackathon"
+description: "Winners of the 2023 Cleveland Cavaliers Advanced Analytics Hackathon"
+date: November 2023
+date-format: "MMM YYYY"
 about: 
   template: solana
   image: cover.png

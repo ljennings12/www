@@ -3,6 +3,8 @@ title: "Portfolio"
 listing:
   contents: projects
   type: default
+  date-format: "MMM YYYY"
+  sort: "date desc" 
 ---
 
 Here are my projects!
