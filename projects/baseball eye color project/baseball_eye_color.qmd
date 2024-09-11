@@ -1,0 +1,19 @@
+---
+title: "How Eye Color Affects Day and Night Splits of MLB Players"
+description: "RMU Undergraduate Research Conference Poster Presentation"
+date: April 2024
+date-format: "MMM YYYY"
+about: 
+  template: solana
+  image: cover.png
+  links:
+      - icon: file-earmark-post
+        text: Poster
+        href: https://docs.google.com/presentation/d/1PjJw3GgfUrih69d1YAE3dv9HSHnkk9V2uov0coykdgc/edit#slide=id.p
+        target: _blank
+
+---
+The project’s goal was to determine whether there is a relationship between an MLB player’s eye color and their performance in day games versus night games. We web-scraped over 300 variables from Fangraphs’ batter logs and game information (including day or night). We utilized two random forest models to predict a player’s eye color. The first was used to predict eye color in day games, and the second was used to predict eye color in night games. We expected a dropoff in test accuracy for night games because we expect less of a distinction between brown-eyed and blue-eyed players during these games; however, the actual dropoff in accuracy that we found was not statistically significant.
+
+**Limitations/Future Work:** Will rework in the future by better selecting variables and having expected weighted on-base average (xwOBA) be the target of random forest models. 
+

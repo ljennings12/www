@@ -1,7 +1,7 @@
 ---
 title: "Liam Jennings"
 about: 
-  template: jolla
+  template: trestles
   image: assets/Liam_Jennings_Headshot.jpg
   links:
     - icon: envelope
@@ -22,3 +22,52 @@ I am a Robert Morris University student majoring in Statistics and Data Science 
 I have always been interested in statistics, whether I was scanning the back of football cards, combing through Statcast leaders, or using advanced analytics to win in fantasy football. 
 
 I’m eager to continue learning and gaining knowledge and experience in the sports industry.
+
+
+
+## Education
+**Robert Morris University** | Moon Township, PA
+
+M.S. in Applied Data Science 
+
+Expected Graduation: May 2025
+
+**Robert Morris University** | Moon Township, PA
+
+B.S. in Statistics and Data Science | Minor in Sport Management 
+
+Expected Graduation: May 2025
+
+
+
+## Experience
+**Carnegie Mellon University** | CMSAC Fellow
+
+June 2024 - Present
+
+**PFF** | Data Collection Analyst
+
+July 2023 - Present
+
+**Robert Morris University** | IT Application Programmer
+
+February 2023 - Present
+
+
+
+## Leadership and Activities
+**Sport Analytics Club** 
+
+President/Co-Founder | April 2023 - Present
+
+**Analytics Club**
+
+Vice President | August 2023 - Present
+
+ASA DataFest Planning Committee | January 2023 - April 2023
+
+Department Liaison | August 2022 - August 2023
+
+**Men's Club Volleyball**
+
+Captain | April 2024 - Present

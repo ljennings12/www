@@ -11,14 +11,14 @@
     "href": "projects/cincinnati reds/cincinnati.html",
     "title": "2024 Cincinnati Reds Baseball Hackathon",
     "section": "",
-    "text": "The task was to analyze pitchers that may benefit from a role change using Baseball Savant pitch-by-pitch and Fangraphs season data. We used the Baseball Savant data to calculate the weighted on-base average (wOBA) for every pitcher because it isolates pitcher performance more effectively than batting average allowed or WHIP. Then, we utilized stepwise regression to determine the most significant variables to predict FIP. After finding the most important predictors, we created a decision tree model with k-fold cross-validation and looked at pitchers with incorrectly predicted roles in 2023. The model and subjective reasoning determined that SP Blake Snell, SP Steven Matz, and RP Víctor Gonzalez could transition well to the other classified role."
+    "text": "The task was to analyze pitchers that may benefit from a role change using Baseball Savant pitch-by-pitch and Fangraphs season data. We used the Baseball Savant data to calculate the weighted on-base average (wOBA) for every pitcher because it isolates pitcher performance more effectively than batting average allowed or WHIP. Then, we utilized stepwise regression to determine the most significant variables to predict FIP. After finding the most important predictors, we created a decision tree model with k-fold cross-validation and looked at pitchers with incorrectly predicted roles in 2023. The model and subjective reasoning determined that SP Blake Snell, SP Steven Matz, and RP Víctor Gonzalez could transition well to the other classified role.\nLimitations/Future Work: Will rework in the future by using random forests instead of a single decision tree to decrease randomness and variance. Knowledge was limited at the time."
   },
   {
-    "objectID": "portfolio.html",
-    "href": "portfolio.html",
-    "title": "Portfolio",
+    "objectID": "projects/baseball eye color project/baseball_eye_color.html",
+    "href": "projects/baseball eye color project/baseball_eye_color.html",
+    "title": "How Eye Color Affects Day and Night Splits of MLB Players",
     "section": "",
-    "text": "Here are my projects!\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe Wrong Stuff\n\n\n\n\n\nCMSACamp 2024 Stuff+ Trends and Pitch Effectiveness Capstone Project\n\n\n\n\n\nJul 2024\n\n\n\n\n\n\n\n\n\n\n\n\nWNBA EDA Project\n\n\n\n\n\nCMSACamp 2024 WNBA EDA Project\n\n\n\n\n\nJun 2024\n\n\n\n\n\n\n\n\n\n\n\n\n2024 Cincinnati Reds Baseball Hackathon\n\n\n\n\n\nFinalists of the 2024 Cincinnati Reds Baseball Hackathon\n\n\n\n\n\nFeb 2024\n\n\n\n\n\n\n\n\n\n\n\n\n2023 Cleveland Cavaliers Advanced Analytics Hackathon\n\n\n\n\n\nWinners of the 2023 Cleveland Cavaliers Advanced Analytics Hackathon\n\n\n\n\n\nNov 2023\n\n\n\n\n\n\nNo matching items"
+    "text": "The project’s goal was to determine whether there is a relationship between an MLB player’s eye color and their performance in day games versus night games. We web-scraped over 300 variables from Fangraphs’ batter logs and game information (including day or night). We utilized two random forest models to predict a player’s eye color. The first was used to predict eye color in day games, and the second was used to predict eye color in night games. We expected a dropoff in test accuracy for night games because we expect less of a distinction between brown-eyed and blue-eyed players during these games; however, the actual dropoff in accuracy that we found was not statistically significant.\nLimitations/Future Work: Will rework in the future by better selecting variables and having expected weighted on-base average (xwOBA) be the target of random forest models."
   },
   {
     "objectID": "index.html",
@@ -26,6 +26,34 @@
     "title": "Liam Jennings",
     "section": "",
     "text": "I am a Robert Morris University student majoring in Statistics and Data Science with a minor in Sport Management and also pursuing a Master’s in Data Science. I decided to combine my favorite subject (statistics) and hobby (sports) into a passion.\nI have always been interested in statistics, whether I was scanning the back of football cards, combing through Statcast leaders, or using advanced analytics to win in fantasy football.\nI’m eager to continue learning and gaining knowledge and experience in the sports industry."
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Liam Jennings",
+    "section": "Education",
+    "text": "Education\nRobert Morris University | Moon Township, PA\nM.S. in Applied Data Science\nExpected Graduation: May 2025\nRobert Morris University | Moon Township, PA\nB.S. in Statistics and Data Science | Minor in Sport Management\nExpected Graduation: May 2025"
+  },
+  {
+    "objectID": "index.html#experience",
+    "href": "index.html#experience",
+    "title": "Liam Jennings",
+    "section": "Experience",
+    "text": "Experience\nCarnegie Mellon University | CMSAC Fellow\nJune 2024 - Present\nPFF | Data Collection Analyst\nJuly 2023 - Present\nRobert Morris University | IT Application Programmer\nFebruary 2023 - Present"
+  },
+  {
+    "objectID": "index.html#leadership-and-activities",
+    "href": "index.html#leadership-and-activities",
+    "title": "Liam Jennings",
+    "section": "Leadership and Activities",
+    "text": "Leadership and Activities\nSport Analytics Club\nPresident/Co-Founder | April 2023 - Present\nAnalytics Club\nVice President | August 2023 - Present\nASA DataFest Planning Committee | January 2023 - April 2023\nDepartment Liaison | August 2022 - August 2023\nMen’s Club Volleyball\nCaptain | April 2024 - Present"
+  },
+  {
+    "objectID": "portfolio.html",
+    "href": "portfolio.html",
+    "title": "Portfolio",
+    "section": "",
+    "text": "Here are my projects!\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe Wrong Stuff\n\n\n\n\n\nCMSACamp 2024 Stuff+ Trends and Pitch Effectiveness Capstone Project\n\n\n\n\n\nJul 2024\n\n\n\n\n\n\n\n\n\n\n\n\nWNBA EDA Project\n\n\n\n\n\nCMSACamp 2024 WNBA EDA Project\n\n\n\n\n\nJun 2024\n\n\n\n\n\n\n\n\n\n\n\n\nHow Eye Color Affects Day and Night Splits of MLB Players\n\n\n\n\n\nRMU Undergraduate Research Conference Poster Presentation\n\n\n\n\n\nApr 2024\n\n\n\n\n\n\n\n\n\n\n\n\n2024 Cincinnati Reds Baseball Hackathon\n\n\n\n\n\nFinalists of the 2024 Cincinnati Reds Baseball Hackathon\n\n\n\n\n\nFeb 2024\n\n\n\n\n\n\n\n\n\n\n\n\n2023 Cleveland Cavaliers Advanced Analytics Hackathon\n\n\n\n\n\nWinners of the 2023 Cleveland Cavaliers Advanced Analytics Hackathon\n\n\n\n\n\nNov 2023\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "projects/capstone/capstone.html",

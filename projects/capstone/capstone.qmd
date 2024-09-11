@@ -27,5 +27,5 @@ With the emergence of Stuff+ as a common metric used in pitcher evaluation, we w
 
 Our goal is to provide insights to improve the Stuff+ model so it becomes a more reliable metric for player evaluation.
 
-Our initial analysis is concentrated on the four-seam fastball, with plans to extend this research to other pitch types in future work.
+Our initial analysis is concentrated on the four-seam fastball, with **plans to extend** this research to other pitch types in future work.
 

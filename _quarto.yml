@@ -14,10 +14,12 @@ website:
     right:
       - icon: linkedin
         href: https://www.linkedin.com/in/liamjennings/
+        target: _blank
       - icon: github
         href: https://github.com/ljennings12
       - icon: file-pdf-fill
         href: assets/Liam_Jennings_Resume.pdf
+        target: _blank
 
 format:
   html:
