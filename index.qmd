@@ -2,7 +2,7 @@
 title: "Liam Jennings"
 about: 
   template: marquee
-  image: assets/Liam_Jennings_Headshot.jpg
+  image: assets/LJ_Headshot.jpg
   image-shape: round
   links:
     - icon: envelope
