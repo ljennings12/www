@@ -1,8 +1,9 @@
 ---
 title: "Liam Jennings"
 about: 
-  template: trestles
+  template: marquee
   image: assets/Liam_Jennings_Headshot.jpg
+  image-shape: round
   links:
     - icon: envelope
       text: Email
