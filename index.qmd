@@ -18,11 +18,11 @@ about:
       target: _blank
 ---
 
-I am a Robert Morris University student majoring in Statistics and Data Science with a minor in Sport Management and also pursuing a Master's in Data Science. I decided to combine my favorite subject (statistics) and hobby (sports) into a passion. 
+I am a data scientist with a strong foundation in sports analytics, holding a Master of Science in Data Science and a Bachelor of Science in Statistics and Data Science with a minor in Sport Management from Robert Morris University. My education and hands-on experience have equipped me with advanced skills in machine learning, statistical modeling, and data visualization.
 
-I have always been interested in statistics, whether I was scanning the back of football cards, combing through Statcast leaders, or using advanced analytics to win in fantasy football. 
+My work includes collaborative research and practical projects, including evaluations of MLB pitching metrics, exploratory data analysis in the WNBA, and predictive modeling for player performance. As a CMSAC Fellow at Carnegie Mellon University, I expanded on my machine learning and data visualization skills and presented insights to both technical and non-technical audiences.
 
-I’m eager to continue learning and gaining knowledge and experience in the data science and sports industries.
+Currently, I am a Sports & Entertainment Intern at Carbon Arc, where I am creating stories to showcase the importance of alternative data. My passion lies in combining analytics with storytelling to drive informed decision-making and innovation.
 
 
 
@@ -31,24 +31,28 @@ I’m eager to continue learning and gaining knowledge and experience in the dat
 
 M.S. in Data Science 
 
-Expected Graduation: May 2025
+Graduation: May 2025
 
 **Robert Morris University** | Moon Township, PA
 
 B.S. in Statistics and Data Science | Minor in Sport Management 
 
-Expected Graduation: May 2025
+Graduation: May 2025
 
 
 
 ## Experience
+**Carbon Arc** | Sports & Entertainment Intern
+
+June 2025 - Present
+
 **Carnegie Mellon University** | CMSAC Fellow
 
-June 2024 - Present
+June 2024 - November 2024
 
 **PFF** | Data Collection Analyst
 
-July 2023 - Present
+July 2023 - August 2024
 
 **Robert Morris University** | IT Application Programmer
 
@@ -59,16 +63,20 @@ February 2023 - February 2024
 ## Leadership and Activities
 **Sport Analytics Club** 
 
-President/Co-Founder | April 2023 - Present
+President/Co-Founder | April 2023 - May 2025
 
 **Analytics Club**
 
-Vice President | August 2023 - Present
+Vice President | August 2023 - May 2025
 
 ASA DataFest Planning Committee | January 2023 - April 2023
 
 Department Liaison | August 2022 - August 2023
 
+**First Year Seminar Program (FYSP)**
+
+Honors FYSP Mentor | May 2023 - May 2025
+
 **Men's Club Volleyball**
 
-Captain | April 2024 - Present
+Captain | April 2024 - May 2025

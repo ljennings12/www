@@ -1,0 +1,116 @@
+/*-- scss:defaults --*/
+$color-navy: #14234b;
+$color-red: #a6192e;
+$color-yellow: #FFB612;
+$border-radius: 16px;
+$shadow-glow: rgba(255, 182, 18, 0.6);
+
+/* Import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:wght@400;500&display=swap');
+
+/* Base body and heading fonts */
+body {
+  font-family: "Roboto", Arial, sans-serif;
+  margin: 0;
+  padding: 2rem 1rem;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat", Arial, sans-serif;
+  font-weight: 700;
+}
+
+/* Portfolio cards main style */
+.portfolio-card {
+  position: relative;
+  background: linear-gradient(135deg, $color-navy 0%, darken($color-navy, 10%) 100%);
+  border: 2px solid $color-red;
+  border-radius: $border-radius;
+  padding: 2em 2.5em;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1.6rem;
+  box-shadow: 0 0 15px $shadow-glow;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  &:hover {
+    box-shadow: 0 0 30px $shadow-glow;
+    transform: translateY(-5px);
+  }
+}
+
+/* Title styles */
+.portfolio-card .portfolio-content h2 {
+  color: $color-yellow;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-weight: 900;
+  font-size: 1.6rem;
+  margin-bottom: 0.2em;
+  text-shadow: 0 2px 6px rgba($color-red, 0.6);
+}
+
+/* Subtitle monospace numeric vibe */
+.portfolio-card .portfolio-subtitle {
+  font-family: "Source Code Pro", monospace, "Roboto", sans-serif;
+  font-weight: 600;
+  color: lighten($color-red, 20%);
+  margin-top: 0.3em;
+  letter-spacing: 0.08em;
+}
+
+/* Portfolio date (optional) */
+.portfolio-card .portfolio-date {
+  flex: 0 0 80px;
+  font-family: monospace;
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: lighten($color-red, 50%);
+  letter-spacing: 1.1px;
+}
+
+/* Updated portfolio-content to align vertically with thumbnail */
+.portfolio-content {
+  flex: 1 1 auto;
+  min-height: 110px;          /* match thumbnail height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;    /* vertically center text content */
+}
+
+/* Portfolio thumb: rounded rectangle, right-aligned */
+.portfolio-card .portfolio-thumb {
+  width: 140px;
+  height: 110px;            /* Use 140px for square, 110px for rectangle */
+  border-radius: 14px;
+  object-fit: cover;
+  border: 3px solid $color-yellow;
+  box-shadow: 0 0 14px $color-yellow;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  align-self: center;
+  margin-left: auto;        /* Push image to far right of the card */
+  display: block;
+  background: #222;
+  &:hover {
+    transform: scale(1.08);
+    box-shadow: 0 0 30px $color-yellow;
+  }
+}
+
+/* Responsive adjustments */
+@media (max-width: 700px) {
+  .portfolio-card {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .portfolio-card .portfolio-date {
+    margin-bottom: 0.4rem;
+  }
+  .portfolio-card .portfolio-thumb {
+    align-self: center;
+    width: 120px;
+    height: 95px;
+    margin-top: 1rem;
+    margin-left: 0;
+  }
+}

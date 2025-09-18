@@ -1,11 +1,81 @@
 ---
 title: "Portfolio"
-listing:
-  contents: projects
-  type: default
-  date-format: "MMM YYYY"
-  sort: "date desc" 
+listing: false
 ---
 
 Here are my projects!
 
+::: {.portfolio-listing}
+
+::: {.portfolio-card data-url="projects/data_science_capstone/data_science_capstone.html"}
+<div class="portfolio-content">
+Read Between the Lines: Key Predictors of NFL Over/Under Outcomes  
+<span class="portfolio-subtitle">STAT 7100: Master’s Data Science Capstone</span>
+</div>
+<img src="assets/masters_ds_capstone.png" alt="Data Science Capstone" class="portfolio-thumb" />
+:::
+
+::: {.portfolio-card data-url="projects/honors_capstone/baseball_eye_color.html"}
+<div class="portfolio-content">
+Seeing the Game: Eye Color and MLB Players’ Day-Night Splits  
+<span class="portfolio-subtitle">HNRS 4000: Honors Capstone</span>
+</div>
+<img src="assets/honors_capstone.png" alt="Honors Capstone" class="portfolio-thumb" />
+:::
+
+::: {.portfolio-card data-url="projects/honors_seminar/honors_seminar.html"}
+<div class="portfolio-content">
+Making the Most of Your Day: Insights into Disney World Attraction Lines  
+<span class="portfolio-subtitle">HNRS 3900: Honors Seminar: Creating the Magic Final Project</span>
+</div>
+<img src="assets/honors_seminar.png" alt="Honors Seminar" class="portfolio-thumb" />
+:::
+
+::: {.portfolio-card data-url="projects/cmusac_capstone/capstone.html"}
+<div class="portfolio-content">
+The Wrong Stuff  
+<span class="portfolio-subtitle">CMSACamp 2024 Stuff+ Trends and Pitch Effectiveness Capstone Project</span>
+</div>
+<img src="assets/cmusac.png" alt="CMSACamp Capstone" class="portfolio-thumb" />
+:::
+
+::: {.portfolio-card data-url="projects/EDA/WNBA_EDA.html"}
+<div class="portfolio-content">
+WNBA EDA Project  
+<span class="portfolio-subtitle">CMSACamp 2024 WNBA EDA Project</span>
+</div>
+<img src="assets/wnba.png" alt="WNBA EDA" class="portfolio-thumb" />
+:::
+
+::: {.portfolio-card data-url="projects/cincinnati%20reds/cincinnati.html"}
+<div class="portfolio-content">
+2024 Cincinnati Reds Baseball Hackathon  
+<span class="portfolio-subtitle">Finalists of the 2024 Cincinnati Reds Baseball Hackathon</span>
+</div>
+<img src="assets/reds.png" alt="Cincinnati Reds Hackathon" class="portfolio-thumb" />
+:::
+
+::: {.portfolio-card data-url="projects/cleveland%20cavaliers/cleveland.html"}
+<div class="portfolio-content">
+2023 Cleveland Cavaliers Advanced Analytics Hackathon  
+<span class="portfolio-subtitle">Winners of the 2023 Cleveland Cavaliers Advanced Analytics Hackathon</span>
+</div>
+<img src="assets/cavs.png" alt="Cleveland Cavaliers Hackathon" class="portfolio-thumb" />
+:::
+
+:::
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  document.querySelectorAll('.portfolio-card').forEach(function(card) {
+    card.style.cursor = 'pointer';
+    card.addEventListener('click', function(e) {
+      if (e.target.tagName.toLowerCase() === 'a' || e.target.closest('a')) return;
+      var url = card.getAttribute('data-url');
+      if (url) {
+        window.open(url, '_blank');
+      }
+    });
+  });
+});
+</script>

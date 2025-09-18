@@ -1,10 +1,24 @@
 [
   {
+    "objectID": "projects/honors_seminar/honors_seminar.html",
+    "href": "projects/honors_seminar/honors_seminar.html",
+    "title": "Making the Most of Your Day: Insights into Disney World Attraction Lines",
+    "section": "",
+    "text": "This project examined the factors influencing attraction wait times at Walt Disney World and how ride popularity has shifted from 2015 to 2019. Using data from TouringPlans.com, I analyzed average wait times for 14 major attractions, including favorites like Avatar Flight of Passage, Seven Dwarfs Mine Train, and Slinky Dog Dash. Through exploratory data analysis and clustering, I compared attractions based on efficiency (ride time versus wait time), seasonal trends, weather patterns, and external factors such as school schedules. Insights showed that peak seasons, Christmas and major holiday weekends, consistently lead to the longest lines, while attractions like Spaceship Earth remain more accessible throughout the year.\nKey findings indicate that popular rides like Avatar Flight of Passage and Seven Dwarfs Mine Train often have inflated posted wait times, likely as a strategy to better manage crowds. Seasonal effects are more significant than day-of-week patterns, with “September Low” offering the best chance for shorter waits. Clustering highlighted efficiency differences, revealing that headline thrill rides often result in short experiences despite long waits, while slower attractions provide more balanced experiences."
+  },
+  {
     "objectID": "projects/EDA/WNBA_EDA.html",
     "href": "projects/EDA/WNBA_EDA.html",
     "title": "WNBA EDA Project",
     "section": "",
     "text": "The data was from the wehoop package, where each row corresponds to a shot attempt in the WNBA 2023 season. The hypotheses we examined are: 1) shooting efficiency and frequency between the best and worst teams, 2) who the best and worst performers are during the playoffs and 3) how do home teams’ performance differ from away teams’ performance during “clutch” time? Using fundamental EDA and data visualization techniques, we evaluated our hypotheses and presented our conclusions."
+  },
+  {
+    "objectID": "projects/cmusac_capstone/capstone.html",
+    "href": "projects/cmusac_capstone/capstone.html",
+    "title": "The Wrong Stuff",
+    "section": "",
+    "text": "As the MLB continues to evolve, there are new advantages every day. Stuff+ is a pitching metric that describes the “filth” of a pitch based on the ball-flight characteristics (e.g., velocity, movement, spin, and extension). A Stuff+ value of 100 means a pitch is considered league average; anything above or below 100 is considered above or below average respectively.\nWith the emergence of Stuff+ as a common metric used in pitcher evaluation, we wanted to evaluate how accurately the model predicted a pitcher’s success (e.g., whiff rate and xwOBA) and how appropriately it weighed the factors that go into it.\nOur goal is to provide insights to improve the Stuff+ model so it becomes a more reliable metric for player evaluation."
   },
   {
     "objectID": "projects/cincinnati reds/cincinnati.html",
@@ -14,53 +28,39 @@
     "text": "The task was to analyze pitchers that may benefit from a role change using Baseball Savant pitch-by-pitch and Fangraphs season data. We used the Baseball Savant data to calculate the weighted on-base average (wOBA) for every pitcher because it isolates pitcher performance more effectively than batting average allowed or WHIP. Then, we utilized stepwise regression to determine the most significant variables to predict FIP. After finding the most important predictors, we created a decision tree model with k-fold cross-validation and looked at pitchers with incorrectly predicted roles in 2023. The model and subjective reasoning determined that SP Blake Snell, SP Steven Matz, and RP Víctor Gonzalez could transition well to the other classified role.\nLimitations/Future Work: Will rework in the future by using random forests instead of a single decision tree to decrease randomness and variance. Knowledge was limited at the time."
   },
   {
-    "objectID": "projects/baseball eye color project/baseball_eye_color.html",
-    "href": "projects/baseball eye color project/baseball_eye_color.html",
-    "title": "How Eye Color Affects Day and Night Splits of MLB Players",
-    "section": "",
-    "text": "The project’s goal was to determine whether there is a relationship between an MLB player’s eye color and their performance in day games versus night games. We web-scraped over 300 variables from Fangraphs’ batter logs and game information (including day or night). We utilized two random forest models to predict a player’s eye color. The first was used to predict eye color in day games, and the second was used to predict eye color in night games. We expected a dropoff in test accuracy for night games because we expect less of a distinction between brown-eyed and blue-eyed players during these games; however, the actual dropoff in accuracy that we found was not statistically significant.\nLimitations/Future Work: Will rework in the future by better selecting variables and having expected weighted on-base average (xwOBA) be the target of random forest models."
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Liam Jennings",
     "section": "",
-    "text": "I am a Robert Morris University student majoring in Statistics and Data Science with a minor in Sport Management and also pursuing a Master’s in Data Science. I decided to combine my favorite subject (statistics) and hobby (sports) into a passion.\nI have always been interested in statistics, whether I was scanning the back of football cards, combing through Statcast leaders, or using advanced analytics to win in fantasy football.\nI’m eager to continue learning and gaining knowledge and experience in the data science and sports industries."
+    "text": "I am a data scientist with a strong foundation in sports analytics, holding a Master of Science in Data Science and a Bachelor of Science in Statistics and Data Science with a minor in Sport Management from Robert Morris University. My education and hands-on experience have equipped me with advanced skills in machine learning, statistical modeling, and data visualization.\nMy work includes collaborative research and practical projects, including evaluations of MLB pitching metrics, exploratory data analysis in the WNBA, and predictive modeling for player performance. As a CMSAC Fellow at Carnegie Mellon University, I expanded on my machine learning and data visualization skills and presented insights to both technical and non-technical audiences.\nCurrently, I am a Sports & Entertainment Intern at Carbon Arc, where I am creating stories to showcase the importance of alternative data. My passion lies in combining analytics with storytelling to drive informed decision-making and innovation."
   },
   {
     "objectID": "index.html#education",
     "href": "index.html#education",
     "title": "Liam Jennings",
     "section": "Education",
-    "text": "Education\nRobert Morris University | Moon Township, PA\nM.S. in Data Science\nExpected Graduation: May 2025\nRobert Morris University | Moon Township, PA\nB.S. in Statistics and Data Science | Minor in Sport Management\nExpected Graduation: May 2025"
+    "text": "Education\nRobert Morris University | Moon Township, PA\nM.S. in Data Science\nGraduation: May 2025\nRobert Morris University | Moon Township, PA\nB.S. in Statistics and Data Science | Minor in Sport Management\nGraduation: May 2025"
   },
   {
     "objectID": "index.html#experience",
     "href": "index.html#experience",
     "title": "Liam Jennings",
     "section": "Experience",
-    "text": "Experience\nCarnegie Mellon University | CMSAC Fellow\nJune 2024 - Present\nPFF | Data Collection Analyst\nJuly 2023 - Present\nRobert Morris University | IT Application Programmer\nFebruary 2023 - February 2024"
+    "text": "Experience\nCarbon Arc | Sports & Entertainment Intern\nJune 2025 - Present\nCarnegie Mellon University | CMSAC Fellow\nJune 2024 - November 2024\nPFF | Data Collection Analyst\nJuly 2023 - August 2024\nRobert Morris University | IT Application Programmer\nFebruary 2023 - February 2024"
   },
   {
     "objectID": "index.html#leadership-and-activities",
     "href": "index.html#leadership-and-activities",
     "title": "Liam Jennings",
     "section": "Leadership and Activities",
-    "text": "Leadership and Activities\nSport Analytics Club\nPresident/Co-Founder | April 2023 - Present\nAnalytics Club\nVice President | August 2023 - Present\nASA DataFest Planning Committee | January 2023 - April 2023\nDepartment Liaison | August 2022 - August 2023\nMen’s Club Volleyball\nCaptain | April 2024 - Present"
+    "text": "Leadership and Activities\nSport Analytics Club\nPresident/Co-Founder | April 2023 - May 2025\nAnalytics Club\nVice President | August 2023 - May 2025\nASA DataFest Planning Committee | January 2023 - April 2023\nDepartment Liaison | August 2022 - August 2023\nFirst Year Seminar Program (FYSP)\nHonors FYSP Mentor | May 2023 - May 2025\nMen’s Club Volleyball\nCaptain | April 2024 - May 2025"
   },
   {
     "objectID": "portfolio.html",
     "href": "portfolio.html",
     "title": "Portfolio",
     "section": "",
-    "text": "Here are my projects!\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe Wrong Stuff\n\n\n\n\n\nCMSACamp 2024 Stuff+ Trends and Pitch Effectiveness Capstone Project\n\n\n\n\n\nJul 2024\n\n\n\n\n\n\n\n\n\n\n\n\nWNBA EDA Project\n\n\n\n\n\nCMSACamp 2024 WNBA EDA Project\n\n\n\n\n\nJun 2024\n\n\n\n\n\n\n\n\n\n\n\n\nHow Eye Color Affects Day and Night Splits of MLB Players\n\n\n\n\n\nRMU Undergraduate Research Conference Poster Presentation\n\n\n\n\n\nApr 2024\n\n\n\n\n\n\n\n\n\n\n\n\n2024 Cincinnati Reds Baseball Hackathon\n\n\n\n\n\nFinalists of the 2024 Cincinnati Reds Baseball Hackathon\n\n\n\n\n\nFeb 2024\n\n\n\n\n\n\n\n\n\n\n\n\n2023 Cleveland Cavaliers Advanced Analytics Hackathon\n\n\n\n\n\nWinners of the 2023 Cleveland Cavaliers Advanced Analytics Hackathon\n\n\n\n\n\nNov 2023\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "projects/capstone/capstone.html",
-    "href": "projects/capstone/capstone.html",
-    "title": "The Wrong Stuff",
-    "section": "",
-    "text": "As the MLB continues to evolve, there are new advantages every day. Stuff+ is a pitching metric that describes the “filth” of a pitch based on the ball-flight characteristics (e.g., velocity, movement, spin, and extension). A Stuff+ value of 100 means a pitch is considered league average; anything above or below 100 is considered above or below average respectively.\nWith the emergence of Stuff+ as a common metric used in pitcher evaluation, we wanted to evaluate how accurately the model predicted a pitcher’s success (e.g., whiff rate and xwOBA) and how appropriately it weighed the factors that go into it.\nOur goal is to provide insights to improve the Stuff+ model so it becomes a more reliable metric for player evaluation."
+    "text": "Here are my projects!\n\n\n\nRead Between the Lines: Key Predictors of NFL Over/Under Outcomes\nSTAT 7100: Master’s Data Science Capstone\n\n\n\n\n\nSeeing the Game: Eye Color and MLB Players’ Day-Night Splits\nHNRS 4000: Honors Capstone\n\n\n\n\n\nMaking the Most of Your Day: Insights into Disney World Attraction Lines\nHNRS 3900: Honors Seminar: Creating the Magic Final Project\n\n\n\n\n\nThe Wrong Stuff\nCMSACamp 2024 Stuff+ Trends and Pitch Effectiveness Capstone Project\n\n\n\n\n\nWNBA EDA Project\nCMSACamp 2024 WNBA EDA Project\n\n\n\n\n\n2024 Cincinnati Reds Baseball Hackathon\nFinalists of the 2024 Cincinnati Reds Baseball Hackathon\n\n\n\n\n\n2023 Cleveland Cavaliers Advanced Analytics Hackathon\nWinners of the 2023 Cleveland Cavaliers Advanced Analytics Hackathon"
   },
   {
     "objectID": "projects/cleveland cavaliers/cleveland.html",
@@ -68,5 +68,19 @@
     "title": "2023 Cleveland Cavaliers Advanced Analytics Hackathon",
     "section": "",
     "text": "The challenge was to create tiers for the Cavaliers home games for the 2023/24 season and showcase the insights in ten days. We added to the provided data and weighted the variables to bring meaning to their significance. Then, we utilized a k-means clustering algorithm to group the games and arrange them into four tiers. Using the cluster centers, we interpreted the results and provided insight into each level. Also, we constructed a presentation of our findings to showcase the tiers and discuss our code in a manner that would be easily understandable for all audiences."
+  },
+  {
+    "objectID": "projects/data_science_capstone/data_science_capstone.html",
+    "href": "projects/data_science_capstone/data_science_capstone.html",
+    "title": "Read Between the Lines: Key Predictors of NFL Over/Under Outcomes",
+    "section": "",
+    "text": "This project tackled the challenge of identifying the factors that influence NFL game over/under results, which are betting lines predicting the total points scored in a matchup. Since achieving profitability requires at least 52.4% prediction accuracy, my goal was to develop models that could surpass that threshold. Using play-by-play data from the nflreadr library (covering the 2021–2024 seasons), I compiled team-level statistics such as points per game, possessions, EPA (expected points added), giveaways, and pass rate over expected, along with contextual variables like weather, stadium type, and travel time zones. Each game was approached as a binary classification task (over or under), with engineered features designed to reflect matchup strength between offenses and defenses.\nI tested various machine learning methods, including logistic regression, random forest, XGBoost, GAMs, SVMs, and a voting classifier, all trained with cross-validation. Logistic regression emerged as the top performer with approximately 55% test accuracy, followed by XGBoost at about 53.5%, both exceeding the profitability threshold. Key insights indicated that ball control, turnover margin, and opponent matchups were among the most predictive factors, while recent performance trends often revealed shifts not apparent in season-long averages. Despite its effectiveness, limitations remain: differences in coaching philosophy, team-specific schemes, and injuries are difficult to quantify, suggesting that hierarchical modeling could enhance future iterations."
+  },
+  {
+    "objectID": "projects/honors_capstone/baseball_eye_color.html",
+    "href": "projects/honors_capstone/baseball_eye_color.html",
+    "title": "Seeing the Game: Eye Color and MLB Players’ Day-Night Splits",
+    "section": "",
+    "text": "This project examined whether a player’s eye color affects performance differences between day and night baseball games. Since eye color is determined by melanin in the iris, with lighter eyes generally more sensitive to light, the idea was that players with lighter eyes might encounter more challenges in bright daytime conditions. Using only outdoor games with clearly defined day (before 2:15 PM) and night (after 6:00 PM) start times, I expanded on Gerald Schifman’s 2015 study by applying linear regression, random forest models, and hierarchical modeling to test for effects on batting performance, measured via weighted on-base average (wOBA).\nThe results indicated only weak evidence that eye color has an effect, and it ranked much lower than other variables in predictive importance. Factors like weather, sunlight, shadows, and modern vision technology probably diminish any measurable influence. This work demonstrates how data science can investigate unconventional questions in sports analytics, while emphasizing the importance of considering context and limitations when analyzing results."
   }
 ]

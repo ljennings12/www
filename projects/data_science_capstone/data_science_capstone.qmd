@@ -1,0 +1,27 @@
+---
+title: "Read Between the Lines: Key Predictors of NFL Over/Under Outcomes"
+description: "STAT 7100: Master’s Data Science Capstone"
+date: May 2025
+date-format: "MMM YYYY"
+about: 
+  template: solana
+  image: cover.png
+  links:
+      - icon: pencil
+        text: Report
+        href: https://ljennings12.github.io/Data-Science-Capstone/
+        target: _blank
+      - icon: file-earmark-ppt
+        text: Slides
+        href: https://docs.google.com/presentation/d/13vGnKXMdtfcyN2cSy1VLmx6U1r7SHUQqq4JnIeGbigI/edit?usp=sharing
+        target: _blank
+      - icon: github
+        text: GitHub
+        href: https://github.com/ljennings12/Data-Science-Capstone
+        target: _blank
+
+---
+This project tackled the challenge of identifying the factors that influence NFL game over/under results, which are betting lines predicting the total points scored in a matchup. Since achieving profitability requires at least 52.4% prediction accuracy, my goal was to develop models that could surpass that threshold. Using play-by-play data from the nflreadr library (covering the 2021–2024 seasons), I compiled team-level statistics such as points per game, possessions, EPA (expected points added), giveaways, and pass rate over expected, along with contextual variables like weather, stadium type, and travel time zones. Each game was approached as a binary classification task (over or under), with engineered features designed to reflect matchup strength between offenses and defenses.
+
+I tested various machine learning methods, including logistic regression, random forest, XGBoost, GAMs, SVMs, and a voting classifier, all trained with cross-validation. Logistic regression emerged as the top performer with approximately 55% test accuracy, followed by XGBoost at about 53.5%, both exceeding the profitability threshold. Key insights indicated that ball control, turnover margin, and opponent matchups were among the most predictive factors, while recent performance trends often revealed shifts not apparent in season-long averages. Despite its effectiveness, limitations remain: differences in coaching philosophy, team-specific schemes, and injuries are difficult to quantify, suggesting that hierarchical modeling could enhance future iterations.
+

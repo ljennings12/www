@@ -1,0 +1,18 @@
+---
+title: "Seeing the Game: Eye Color and MLB Players' Day-Night Splits"
+description: "HNRS 4000: Honors Capstone"
+date: May 2025
+date-format: "MMM YYYY"
+about: 
+  template: solana
+  image: cover.png
+  links:
+      - icon: laptop
+        text: Presentation
+        href: https://docs.google.com/presentation/d/1pZJzHmNKAhhfrGlmuDYf9bTYqDLePwT3zgHAnLrKpvQ/edit?usp=sharing
+        target: _blank
+
+---
+This project examined whether a player’s eye color affects performance differences between day and night baseball games. Since eye color is determined by melanin in the iris, with lighter eyes generally more sensitive to light, the idea was that players with lighter eyes might encounter more challenges in bright daytime conditions. Using only outdoor games with clearly defined day (before 2:15 PM) and night (after 6:00 PM) start times, I expanded on Gerald Schifman’s 2015 study by applying linear regression, random forest models, and hierarchical modeling to test for effects on batting performance, measured via weighted on-base average (wOBA).
+
+The results indicated only weak evidence that eye color has an effect, and it ranked much lower than other variables in predictive importance. Factors like weather, sunlight, shadows, and modern vision technology probably diminish any measurable influence. This work demonstrates how data science can investigate unconventional questions in sports analytics, while emphasizing the importance of considering context and limitations when analyzing results.

@@ -1,0 +1,27 @@
+---
+title: "Making the Most of Your Day: Insights into Disney World Attraction Lines"
+description: "HNRS 3900: Honors Seminar: Creating the Magic Final Project"
+date: May 2025
+date-format: "MMM YYYY"
+about: 
+  template: solana
+  image: cover.png
+  links:
+      - icon: pencil
+        text: Report
+        href: https://ljennings12.github.io/RMU-Honors-Seminar/
+        target: _blank
+      - icon: file-earmark-ppt
+        text: Slides
+        href: https://docs.google.com/presentation/d/1RSTY23Qdzt3oi-1_MsfSjtivIM-Um65CSjREeS5Gaew/edit?usp=sharing
+        target: _blank
+      - icon: github
+        text: GitHub
+        href: https://github.com/ljennings12/RMU-Honors-Seminar
+        target: _blank
+        
+---
+This project examined the factors influencing attraction wait times at Walt Disney World and how ride popularity has shifted from 2015 to 2019. Using data from TouringPlans.com, I analyzed average wait times for 14 major attractions, including favorites like Avatar Flight of Passage, Seven Dwarfs Mine Train, and Slinky Dog Dash. Through exploratory data analysis and clustering, I compared attractions based on efficiency (ride time versus wait time), seasonal trends, weather patterns, and external factors such as school schedules. Insights showed that peak seasons, Christmas and major holiday weekends, consistently lead to the longest lines, while attractions like Spaceship Earth remain more accessible throughout the year.
+
+Key findings indicate that popular rides like Avatar Flight of Passage and Seven Dwarfs Mine Train often have inflated posted wait times, likely as a strategy to better manage crowds. Seasonal effects are more significant than day-of-week patterns, with “September Low” offering the best chance for shorter waits. Clustering highlighted efficiency differences, revealing that headline thrill rides often result in short experiences despite long waits, while slower attractions provide more balanced experiences.
+

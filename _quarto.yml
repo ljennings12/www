@@ -2,11 +2,11 @@ project:
   type: website
   resources: assets
   output-dir: docs
-
+  
 website:
   title: "Liam Jennings"
   navbar:
-    background: "#A6192E"
+    background: "#14234b"
     left:
       - href: index.qmd
         text: Home
@@ -21,15 +21,14 @@ website:
       - icon: file-pdf-fill
         href: assets/Liam_Jennings_Resume.pdf
         target: _blank
-
+        
 format:
   html:
-    theme: 
-      dark: darkly
-      light: flatly
-        - custom.scss
-    css: styles.css
+    theme:
+      dark:
+        - darkly
+        - theme_dark.scss
+      light:
+        - flatly
+        - theme_light.scss
     toc: true
-
-
-

@@ -1,0 +1,32 @@
+---
+title: "The Wrong Stuff"
+description: "CMSACamp 2024 Stuff+ Trends and Pitch Effectiveness Capstone Project"
+date: July 2024
+date-format: "MMM YYYY"
+about: 
+  template: solana
+  image: cover.png
+  links:
+      - icon: pencil
+        text: Report
+        href: https://www.stat.cmu.edu/cmsac/sure/2024/showcase/baseball_pirates/report.html
+        target: _blank
+      - icon: file-earmark-ppt
+        text: Slides
+        href: https://docs.google.com/presentation/d/1gDp_AAj02P-_tELlcciAEF6Plji-aMmRPPjkIrz-4_I/edit#slide=id.g2e9241830c2_0_1457
+        target: _blank
+      - icon: github
+        text: GitHub
+        href: https://github.com/belle-schmidt/Pittsburgh-Pirates/tree/main
+        target: _blank
+      - icon: file-earmark-post
+        text: Poster
+        href: https://www.stat.cmu.edu/cmsac/sure/2024/showcase/baseball_pirates/poster.pdf
+        target: _blank
+---
+As the MLB continues to evolve, there are new advantages every day. Stuff+ is a pitching metric that describes the "filth" of a pitch based on the ball-flight characteristics (e.g., velocity, movement, spin, and extension). A Stuff+ value of 100 means a pitch is considered league average; anything above or below 100 is considered above or below average respectively.
+
+With the emergence of Stuff+ as a common metric used in pitcher evaluation, we wanted to evaluate how accurately the model predicted a pitcher’s success (e.g., whiff rate and xwOBA) and how appropriately it weighed the factors that go into it.
+
+Our goal is to provide insights to improve the Stuff+ model so it becomes a more reliable metric for player evaluation.
+
